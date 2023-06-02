@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:5;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+img {
+    text-align: center;
+}
+title {
+    color: brown; 
+    font-style: italic;
+}
+h1 {
+    color:blue; 
+    font-size: xx-large;
+}
+h2 {
+    color: rgb(25, 23, 84); 
+    font-size: xx-large;
+}
+p {
+    font-family:verdana; 
+    font-size: 20px; 
+    color: red;}
