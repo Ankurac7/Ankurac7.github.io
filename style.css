@@ -6,6 +6,7 @@
 }
 body {
     background-color: lightblue;
+    background-image: url("assets\background1.jpg");
 }
 img {
     text-align: center;
@@ -25,4 +26,9 @@ h2 {
 p {
     font-family:verdana; 
     font-size: 20px; 
-    color: red;}
+    color: red;
+}
+.skills{
+    border:2px;
+    border-style: dashed;
+}
