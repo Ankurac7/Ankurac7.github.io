@@ -9,6 +9,19 @@ redirect_from:
 <head>
   <title>Ankur Chanda</title>
   <link rel="icon" type="image/x-icon" href="assets/img/AC.png" />
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+    }
+    #pdf-container {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
 </head>
-<embed src="files\Resume.pdf" type="application/pdf" frameBorder="0" scrolling="auto" height="100%"
-  width="100%"></embed>
+<body>
+  <embed id="pdf-container" src="files\Resume.pdf" scrolling="auto" type="application/pdf"></embed>
+</body>
